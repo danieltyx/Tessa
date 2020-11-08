@@ -15,6 +15,10 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+      
+
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -71,6 +75,16 @@
                         </span>
                         <h4 class="my-3">Video chat</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+
+                    <button onclick="createFrameAndJoinRoom()">Click me</button>    
+                   <script crossorigin src="https://unpkg.com/@daily-co/daily-js"></script>
+                    <script>
+                    function createFrameAndJoinRoom() {
+                      window.callFrame = window.DailyIframe.createFrame();
+                      callFrame.join({ url: 'https://tessahealthassistant.daily.co/Chat' });
+                    }
+                    </script>
+                     
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
