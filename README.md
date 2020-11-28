@@ -1,2 +1,2 @@
 # Tessa
-Introducing Tessa: the intelligent robot therapist for on-demand telemedicine
+The intelligent robot therapist for on-demand Mental Health Telemedicine
