@@ -31,9 +31,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Activities</a></li>
-                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Hopeline</a></li>
-                       
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#chatbot">Chatbot</a></li>
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#activities">Activities</a></li>
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#hopeline">Hopeline</a></li>
                        <!--  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li> -->
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
@@ -48,33 +49,35 @@
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Say Hi to Tessa</a>
             </div>
         </header>
-        <!-- Chatbox-->
-         <section class="page-section" id="services">
+        <!-- About-->
+         <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
                   <h2 class="section-heading text-uppercase">About</h2>
                   <h3 class="section-subheading text-muted"></h3>
 
                  <img src="assets/img/logo.png" width="238" height="168" alt=""/> 
-				  <p>An intelligent mental health assistant</p>
-	<p>Powered with NLU to seem more human and personal</p>
-			<p>Can detect mood using ML through reading and analyzing user input</p>
-			<p>Offers tailored suggestions </p>
-			<p>Suggestions improve as Tessa stores information from past conversation</p>
-			<p>  </p>
+			<p>Tessa is virtual intelligent assistant created to help assist you Mental Health needs.</p>
+	    <p>Powered with NLU to seem more human and personal, our chatbot analyzes your mood to provide and assist the user. We are also equipped with an easy to use chat function to chat with doctors as well as other patients and friends. To help the patient, we also include many actvities which they can watch and perform from Yoga and CBT Techniques to Mindfullness and Motivational Videos. We also enrich our users with a daily does of happiness articles,to help assist and encourage them. Finally, we have a list of emergency hotlines as well as a method to contact them, with a click of a button.</p>
+			<p>We hope you enjoy using TESSA Mental Health Services.</p>
 			<p>  </p>
 							<p>  </p>
 			<p>  </p>
                 </div>
-    <div class="text-center">
-      <h2 class="section-heading text-uppercase">Chatbox</h2>
-                  <img src="assets/img/demopic.png" width="350" height="660" alt=""/>
-        <h3 class="section-subheading text-muted"></h3>
                
             </div>
             </section>
-
-        <section class="page-section" id="services">
+        <!-- Chatbot-->
+        <section class="page-section" id="chatbot">
+            <div class="container">
+                  <div class="text-center">
+                  <h2 class="section-heading text-uppercase">Chatbox</h2>
+                <!--  <img src="assets/img/demopic.png" width="350" height="660" alt=""/>
+        <h3 class="section-subheading text-muted"></h3>-->
+                    </div>
+            </section>
+        <!-- Activities-->
+        <section class="page-section" id="activities">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Activities</h2>
@@ -141,19 +144,16 @@
         </section>
         <!-- Portfolio Grid-->
         <!--import the hotline and display them as obviouis as possible-->
-        <section class="page-section bg-light" id="portfolio">
+        <section class="page-section bg-light" id="hopeline">
             <div class="container">
                 <div class="text-center">
                   <h2 class="section-heading text-uppercase">HopeLine</h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/Suicide-Prevention-Hotline.jpg" alt="" height="200" width="200"/>
+                        <div class="portfolio-item" align="center">
+                                <img class="marginauto" src="assets/img/Suicide-Prevention-Hotline.jpg" alt="" height="200" width="200"/>
+                                <a href="tel:18002738255" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">Click to Call</p></a>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">1-800-273-TALK</div>
@@ -162,13 +162,10 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" 
+                        <div class="portfolio-item" align="center">
+                                <img class="marginauto" 
                                 src="assets/img/National Domestic Violence Hotline.jpg" alt="" height="200" width="200"/>
+                                <a href="tel:18007997233" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">Click to Call</p></a>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">1-800 799-7233</div>
@@ -177,12 +174,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/Hearing Impairment.jpeg" alt="" height="200" width="200"/>
+                        <div class="portfolio-item" align="center">
+                                <img class="marginauto" src="assets/img/Hearing Impairment.jpeg" alt="" height="200" width="200"/>
+                                <a href="tel:18007994889" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">Click to Call</p></a>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Deaf 1-800-799-4889</div>
@@ -191,26 +185,20 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/nationalrunnawaysafeway.png" alt="" height="200" width="200"/>
+                        <div class="portfolio-item" align="center">
+                                <img class="marginauto" src="assets/img/nationalrunnawaysafeway.png" alt="" height="200" width="200"/>
+                                <a href="tel:18007862929" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">Click to Call</p></a>
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">1-800-Run-Away / 1-800-786-2929</div>
+                                <div class="portfolio-caption-heading">1-800-Run-Away</div>
                                 <div class="portfolio-caption-subheading text-muted">National Runaway Safeline</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/graduate-student-line.jpeg" alt="" height="200" width="200"/>
+                        <div class="portfolio-item" align="center">
+                                <img class="marginauto" src="assets/img/graduate-student-line.jpeg" alt="" height="200" width="200"/>
+                                <a href="tel:18004723457" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">Click to Call</p></a>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">1-800-472-3457</div>
@@ -219,12 +207,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/Trevor-Lifeline-Graphic.png" alt="" height="200" width="200"/>
+                        <div class="portfolio-item" align="center">
+                                <img class="marginauto" src="assets/img/Trevor-Lifeline-Graphic.png" alt="" height="200" width="200"/>
+                                <a href="tel:18664887386" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"><p class="call-button">Click to Call</p></a>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">1-866-488-7386</div>
@@ -320,12 +305,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left">Copyright ©2020 TESSA-MH SERVICES</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+                    <div class="col-lg-4 text-lg-left">©2020 TESSA MENTAL HEALTH SERVICES</div>
                     <div class="col-lg-4 text-lg-right">
                         <a class="mr-3" href="#!">Privacy Policy</a>
                         <a href="#!">Terms of Use</a>
